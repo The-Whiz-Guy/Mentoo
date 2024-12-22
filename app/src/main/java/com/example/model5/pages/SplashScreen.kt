@@ -43,7 +43,7 @@ fun SplashScreen(navController: NavController, authViewModel: AuthViewModel) {
         contentAlignment = Alignment.Center
     ) {
         Image(
-            painter = painterResource(id = R.drawable.play_store_512),
+            painter = painterResource(id = R.drawable.app_icon),
             contentDescription = "Splash Image",
             modifier = Modifier.fillMaxSize().background(Color.Transparent),
             contentScale = ContentScale.Crop
